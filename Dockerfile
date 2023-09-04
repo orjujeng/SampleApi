@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:openjdk-8
 EXPOSE 8080
 VOLUME /tmp
 ADD target/Timesheet-0.0.1-SNAPSHOT.jar /app.jar
