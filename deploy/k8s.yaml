@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: container-th-test
-          image: $REGISTRY/orjujeng/timesheet:lastest
+          image: $REGISTRY/orjujeng/timesheet:test
           ports:
             - containerPort: 8080
               protocol: TCP
