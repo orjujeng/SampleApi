@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: container-th-test
-          image: $REGISTRY/$DOCKERHUB_NAMESPACE/$APP_NAME:$TAG_NAME
+          image: $REGISTRY/orjujeng/timesheet:lastest
           ports:
             - containerPort: 8080
               protocol: TCP
